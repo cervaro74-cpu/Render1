@@ -3,7 +3,7 @@ import logging
 import uuid
 import asyncio
 import httpx
-import psycopg2 # استبدال sqlite3 بـ psycopg2
+import psycopg2
 import os
 from datetime import datetime, timezone
 from urllib.parse import urlparse # للمساعدة في قراءة URL الاتصال
