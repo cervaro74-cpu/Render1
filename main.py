@@ -3,7 +3,7 @@ import logging
 import uuid
 import asyncio
 import httpx
-import psycopg2-binary
+import psycopg2
 import os
 from datetime import datetime, timezone
 from urllib.parse import urlparse # للمساعدة في قراءة URL الاتصال
