@@ -1,7 +1,7 @@
     services:
       - type: web
-        name: render1 # يمكنك تغيير الاسم إذا أردت
+        name: Render1 # يمكنك تغيير الاسم إذا أردت
         env: python
         runtime: python312 # ** هذا هو السطر الهام لإصدار Python **
         buildCommand: pip install -r requirements.txt
-        startCommand: gunicorn app:app # تأكد أن هذا هو أمر التشغيل الصحيح لملفك
+        startCommand: python main.py # تأكد أن هذا هو أمر التشغيل الصحيح لملفك
