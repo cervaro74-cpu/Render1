@@ -1,7 +1,0 @@
-    services:
-      - type: web
-        name: Render1 # يمكنك تغيير الاسم إذا أردت
-        env: python
-        runtime: python312 # ** هذا هو السطر الهام لإصدار Python **
-        buildCommand: pip install -r requirements.txt
-        startCommand: python main.py # تأكد أن هذا هو أمر التشغيل الصحيح لملفك
